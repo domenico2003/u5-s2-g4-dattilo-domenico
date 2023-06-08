@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 import org.springframework.lang.NonNull;
 
+import it.epicode.be.prenotazioni.model.login.User;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

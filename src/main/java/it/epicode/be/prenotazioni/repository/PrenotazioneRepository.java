@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.Query;
 
 import it.epicode.be.prenotazioni.model.Postazione;
 import it.epicode.be.prenotazioni.model.Prenotazione;
-import it.epicode.be.prenotazioni.model.User;
+import it.epicode.be.prenotazioni.model.login.User;
 
 public interface PrenotazioneRepository extends JpaRepository<Prenotazione, Long> {
 

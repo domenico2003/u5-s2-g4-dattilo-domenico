@@ -4,10 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import it.epicode.be.prenotazioni.model.login.UserRepository;
 import it.epicode.be.prenotazioni.repository.CittaRepository;
 import it.epicode.be.prenotazioni.repository.EdificioRepository;
 import it.epicode.be.prenotazioni.repository.PostazioneRepository;
-import it.epicode.be.prenotazioni.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 
 @Component

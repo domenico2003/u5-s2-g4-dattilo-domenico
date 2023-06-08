@@ -11,11 +11,11 @@ import it.epicode.be.prenotazioni.model.Citta;
 import it.epicode.be.prenotazioni.model.Postazione;
 import it.epicode.be.prenotazioni.model.Prenotazione;
 import it.epicode.be.prenotazioni.model.TipoPostazione;
-import it.epicode.be.prenotazioni.model.User;
+import it.epicode.be.prenotazioni.model.login.User;
+import it.epicode.be.prenotazioni.model.login.UserRepository;
 import it.epicode.be.prenotazioni.repository.CittaRepository;
 import it.epicode.be.prenotazioni.repository.PostazioneRepository;
 import it.epicode.be.prenotazioni.repository.PrenotazioneRepository;
-import it.epicode.be.prenotazioni.repository.UserRepository;
 
 @Service
 public class GeneralService {
